@@ -23,3 +23,14 @@ we created a line chart to verify if there is a relationship between outcomes an
 The challenges encountered while during this analysis was to find a way to select the rows and columns in the pivot table to just show the outcomes for 
 each month from the original data wich is the creation date of the campaign. To find a solution, I consult an excel documentation provided by Microsoft 
 wich gives instruction about grouping or ungrouping data in a PivotTable [Microsoft Documentation](https://support.microsoft.com/en-us/office/group-or-ungroup-data-in-a-pivottable-c9d1ddd0-6580-47d1-82bc-c84a5a340725?ui=en-us&rs=en-us&ad=us)
+
+### Analysis of Outcomes Based on Goals
+
+As we can see, plays where the goal amount in the range $1000 and less than $10000 and between $35000 and less than $50000s have a greater chance to succeed 
+than fail. Between 5000 and 35000, they have a greater chance to fail than succeed. Also, between 10000 and 15000 they have about the same chance to fail and 
+succeed. So, in Louise case, wich goal amount is 12000, her play has approximately the same chance to succeed and to fail. If she decides to increase her goal 
+amount, it would be better to choose an amount between 35000 and 45000. Moreover, she must avoid ranges between 25000 to 30000 since her chance to fail is 
+approximately 75% and 45000 to 50000.
+
+The challenge that someone could encounter during this analysis could be how to use the function “COUNTIFS” with different criteria in different columns and to 
+well define the goal amount ranges in the function to avoid overlapping.
