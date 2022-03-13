@@ -25,14 +25,14 @@ each month from the original data wich is the creation date of the campaign. To 
 wich gives instruction about grouping or ungrouping data in a PivotTable [Microsoft Documentation](https://support.microsoft.com/en-us/office/group-or-ungroup-data-in-a-pivottable-c9d1ddd0-6580-47d1-82bc-c84a5a340725?ui=en-us&rs=en-us&ad=us)
 
 ### Analysis of Outcomes Based on Goals
-
-As we can see, plays where the goal amount in the range $1000 and less than $10000 and between $35000 and less than $50000s have a greater chance to succeed 
-than fail. Between 5000 and 35000, they have a greater chance to fail than succeed. Also, between 10000 and 15000 they have about the same chance to fail and 
-succeed. So, in Louise case, wich goal amount is 12000, her play has approximately the same chance to succeed and to fail. If she decides to increase her goal 
-amount, it would be better to choose an amount between 35000 and 45000. Moreover, she must avoid ranges between 25000 to 30000 since her chance to fail is 
-approximately 75% and 45000 to 50000.
+To continue, we performed an analysis to determine how Louise's campaign will perform based on her goal amount. To find useful information that can help her, 
+we decided to compute the percentage of successful, failed, and canceled plays based on their funding goal amount. We created a new sheet “Outcomes Based on Goals” 
+in the Kickstarter excel file in wich we gathered information about the goal amount specified in several ranges and we calculated the percentage of successful, 
+failed, and canceled campaigns for each range. To collect the values for the subcategory “plays”, we used the function “COUNTIFS” were our first condition is 
+the outcome of the campaign, then its goal amount and finally the subcategory which must be “plays”. As in our first analysis, we created a chart line to visualize the 
+results and uncover a relationship between a play outcome and goal amount.
 
 ![Outome_vs_goal](https://github.com/valerielnd/Kickstarter-analysis/blob/main/Outcome_vs_Goals.png)
 
-The challenge that someone could encounter during this analysis could be how to use the function “COUNTIFS” with different criteria in different columns and to 
-well define the goal amount ranges in the function to avoid overlapping.
+The challenge that someone could encounter during this analysis is about using the function “COUNTIFS” and defining the criteria residing in different columns and also 
+how to enter the goal amount ranges to avoid overlapping.
