@@ -1,7 +1,7 @@
 # Kickstarting with Excel
 
 ## Overview and purpose of the project
-Louise, a play writer, wants to start a crowdfunding campaign to help fund her play, fever. She estimates that her project will cost $12000. 
+Louise, a play writer, wants to start a crowdfunding campaign to help fund her play, Fever. She estimates that her project will cost $12000. 
 To help her make key decisions about her project like when to start it and how to reach her goal amount, we have performed data analysis on 
 several thousand crowdfunding campaigns for different categories of projects such as film and video, technology, and theater in several countries 
 among which the US from 2009 to 2017. The goal is to find hidden trends to help determine factors capable of making her project successful. 
