@@ -32,7 +32,7 @@ succeed. So, in Louise case, wich goal amount is 12000, her play has approximate
 amount, it would be better to choose an amount between 35000 and 45000. Moreover, she must avoid ranges between 25000 to 30000 since her chance to fail is 
 approximately 75% and 45000 to 50000.
 
-![Outome_vs_goal(https://github.com/valerielnd/Kickstarter-analysis/blob/main/Outcome_vs_Goals.png)
+![Outome_vs_goal](https://github.com/valerielnd/Kickstarter-analysis/blob/main/Outcome_vs_Goals.png)
 
 The challenge that someone could encounter during this analysis could be how to use the function “COUNTIFS” with different criteria in different columns and to 
 well define the goal amount ranges in the function to avoid overlapping.
