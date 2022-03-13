@@ -11,10 +11,10 @@ among which the US from 2009 to 2017. The goal is to find hidden trends to help 
 ### Analysis of Outcomes Based on Launch Date
 Knowing that Louise’s play came close to its fundraising goal, to help her determine how her campaign will perform in relation to a launch date 
 and her funding goal, we carried out an analysis to visualize campaigns outcomes based on their launch date. To proceed, we used the information in 
-the column “launched_at” that we convert into date to get the date each campaign was created. Using this new information, we built a pivot table 
-filtered by year and by project categories and in which we presented in the rows the months of the year and the columns the number of campaigns 
-undertaken during each month, how many failed, succeeded or were cancelled. Also, to have a visual summary of the results, we created a line chart to 
-verify if there is a relationship between outcomes and launch month.
+the column “launched_at” in the sheet "Kickstarters" of the file [Kickstarter_Challenge]()that we converted into date to get the date each campaign was created. Using this new information, 
+we built a pivot table  filtered by year and by project categories and in which we presented in the rows the months of the year and the columns the 
+number of campaigns undertaken during each month, how many failed, succeeded or were cancelled. Also, to have a visual summary of the results, 
+we created a line chart to verify if there is a relationship between outcomes and launch month.
 
 The challenges encountered while during this analysis was to find a way to select the rows and columns in the pivot table to just show the outcomes for 
 each month from the original data wich is the creation date of the campaign. To find a solution, I consult an excel documentation provided by Microsoft 
