@@ -16,6 +16,8 @@ we built a pivot table  filtered by year and by project categories and in which 
 number of campaigns undertaken during each month, how many failed, succeeded or were cancelled. Also, to have a visual summary of the results, 
 we created a line chart to verify if there is a relationship between outcomes and launch month.
 
+![Pivot_table_outcome_based_launch_date]
+
 The challenges encountered while during this analysis was to find a way to select the rows and columns in the pivot table to just show the outcomes for 
 each month from the original data wich is the creation date of the campaign. To find a solution, I consult an excel documentation provided by Microsoft 
 wich gives instruction about grouping or ungrouping data in a PivotTable
