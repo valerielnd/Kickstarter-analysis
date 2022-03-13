@@ -12,7 +12,7 @@ among which the US from 2009 to 2017. The goal is to find hidden trends to help 
 Knowing that Louise’s play came close to its fundraising goal, to help her determine how her campaign will perform in relation to a launch date,
 we analyzed campaigns' outcomes based on their launch date. To proceed, we used the information in 
 the column “launched_at” in the sheet "Kickstarters" of the file [Kickstarter_Challenge](https://github.com/valerielnd/Kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx) that we converted into dates to get the date each campaign was created. Then, using this new information, 
-we built a pivot table filtered by year and by project categories. In this atable, we presented each row the months of the year and each column the 
+we built a pivot table filtered by year and by project categories. In this table, we presented each row the months of the year and each column the 
 number of campaigns undertaken during a month, how many failed, succeeded or were cancelled. Also, to have a visual summary of the results, 
 we created a line chart to verify if there is a relationship between outcomes and launch month.
 
