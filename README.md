@@ -36,3 +36,10 @@ results and uncover a relationship between a play outcome and goal amount.
 
 The challenge that someone could encounter during this analysis is about using the function “COUNTIFS” and defining the criteria residing in different columns and also 
 how to enter the goal amount ranges to avoid overlapping.
+
+## Limitation of the Data set and possible tables and possible analysis we could do
+One limitation of the data set is that it provides information about campaigns undertaken from the year 2009 to 2017. We could do a more accurate analysis 
+with data from more recent years. 
+
+Additional analysis that we could do involve considering Louis play’s characteristics such has it purpose and overview and comparing it with similar plays 
+to find information such as the outcomes of those plays and what period of the year they are more successful.
