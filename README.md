@@ -22,4 +22,4 @@ we created a line chart to verify if there is a relationship between outcomes an
 
 The challenges encountered while during this analysis was to find a way to select the rows and columns in the pivot table to just show the outcomes for 
 each month from the original data wich is the creation date of the campaign. To find a solution, I consult an excel documentation provided by Microsoft 
-wich gives instruction about grouping or ungrouping data in a PivotTable
+wich gives instruction about grouping or ungrouping data in a PivotTable [Microsoft Documentation](https://support.microsoft.com/en-us/office/group-or-ungroup-data-in-a-pivottable-c9d1ddd0-6580-47d1-82bc-c84a5a340725?ui=en-us&rs=en-us&ad=us)
