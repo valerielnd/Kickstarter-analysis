@@ -2,7 +2,7 @@
 
 ## Overview and purpose of the project
 
-This project aims to analyze data from thousands of crowdfunding campaigns across different categories and countries to identify hidden trends and key factors that contribute to the success of crowdfunding projects. Specifically, the aim is to help someone seeking to fund a play through a crowdfunding campaign, make informed decisions about the timing and strategies to achieve a fundraising goal of $12,000.
+This project aims to analyze data from thousands of crowdfunding campaigns across different categories and countries to identify hidden trends and key factors contributing to crowdfunding projects' success. Specifically, the aim is to help someone seeking to fund a play through a crowdfunding campaign, make informed decisions about the timing and strategies to achieve a fundraising goal of $12,000.
 
 ## Analysis and Challenges
 
@@ -11,6 +11,8 @@ First, we examined the outcomes of campaigns based on their launch dates to assi
 the column “launched_at” in the sheet "Kickstarters" of the file [Kickstarter_Challenge](https://github.com/valerielnd/Kickstarter-analysis/blob/main/Kickstarter_Challenge.xlsx) that we converted into dates to get the date each campaign was created. Then, using this new information, we built a pivot table filtered by year and project categories. In this table, we presented the months of the year in each row, the
 number of campaigns undertaken during a month in each column, and how many failed, succeeded, or were canceled. Also, to have a visual summary of the results, 
 we created a line chart to verify if there is a relationship between outcomes and the launch month.
+
+As depicted in the chart, May shows the highest count of successful plays at *111* out of *166* launched plays. This translates to a ratio of *2.13* successful plays per failed one. However, May also records the highest total of launched plays, which may contribute to the greater number of failures observed, *52*. Conversely, October exhibits a slightly lower count of failed plays at *50*, yet it has one of the smallest ratios of successful plays to failed ones among all months. Additionally, in December, the count of failed plays nearly matches the count of successful ones. Consequently, May is a good time to launch a play.
 
 ![Pivot_table_outcome_based_launch_date](https://github.com/valerielnd/Kickstarter-analysis/blob/main/Pivot_table_outcome_based_launch_date.png)
 
